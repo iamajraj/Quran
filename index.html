@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quran</title>
+</head>
+<body style="font-family: Poppins; background-color: rgb(20, 20, 20);">
+
+    <style>
+        .container{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .div{
+            text-align: center;
+            width: 500px;
+            color: white;
+            margin: 20px;
+        }
+        .container > p{
+            color: white;
+            text-decoration: underline;
+        }
+        .div h3{
+            color: rgb(72, 255, 0);
+        }
+        .div p:last-child{
+            color: rgb(2, 112, 255);
+        }
+        h1{
+            font-style: oblique;
+            text-decoration: underline;
+            letter-spacing: 10px;
+            color: white;
+        }
+    </style>
+
+<div class="container">
+    <h1>The Holy Quran</h1>
+    <p>Bismillahir Rahmanir Rahim</p>
+
+    <div class="div">
+        <div class="loading">Loading...</div>
+    </div>
+</div>
+    <script src="Quran.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
