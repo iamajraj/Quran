@@ -2,7 +2,7 @@ const div = document.querySelector('.div');
 const loading = document.querySelector('.loading');
 
 // FROM THE API
-const getQuran = fetch("http://api.alquran.cloud/v1/quran/en.asad").then(res => res.json()).then((data) => {
+const getQuran = fetch("https://api.alquran.cloud/v1/quran/en.asad").then(res => res.json()).then((data) => {
     loading.style.display = "none";
     console.log(data)
     data.data.surahs.map((surah) => {
